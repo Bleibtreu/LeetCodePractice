@@ -31,7 +31,7 @@ public class IsPossibleDivide {
             map.put(t,--temp);
             for (int j = 0; j < k - 1; j++) {
                 temp = map.get(++t);
-                if ((Integer)temp == null || temp == 0) return false;
+                if (temp == null || temp == 0) return false;
                 else map.put(t,--temp);
             }
         }
