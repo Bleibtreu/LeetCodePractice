@@ -103,7 +103,6 @@ public class SequentialDigits {
 
     public List<Integer> sequentialDigits2(int low, int high) {
         List<Integer> result = new LinkedList();
-
         for (int m = 2; m <= 9 && Math.pow(10, m - 1) < high; m++) {
             for (int i = 1; i <= 8; i++) {
                 int value = i;
