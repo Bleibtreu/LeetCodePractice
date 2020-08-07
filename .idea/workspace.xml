@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MatrixReshape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindNumberIn2DArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+            <state relative-caret-position="488">
+              <caret line="87" column="10" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Average.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="416">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MatrixReshape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -121,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/CheckStraightLine.java" />
         <option value="$PROJECT_DIR$/src/FindNumberIn2DArray.java" />
         <option value="$PROJECT_DIR$/src/Average.java" />
+        <option value="$PROJECT_DIR$/src/MatrixReshape.java" />
       </list>
     </option>
   </component>
@@ -175,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Average">
+  <component name="RunManager" selected="Application.MatrixReshape">
     <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Average" />
       <module name="leetCode" />
@@ -190,15 +200,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DayOfYear" />
+    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindNumberIn2DArray" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindNumberIn2DArray" />
+    <configuration name="MatrixReshape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatrixReshape" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixReshape" />
         <item itemvalue="Application.Average" />
         <item itemvalue="Application.FindNumberIn2DArray" />
         <item itemvalue="Application.CheckStraightLine" />
         <item itemvalue="Application.SpiralOrder" />
-        <item itemvalue="Application.DayOfYear" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +263,7 @@
       <workItem from="1589939699843" duration="6743000" />
       <workItem from="1595382072747" duration="5609000" />
       <workItem from="1595472937580" duration="3871000" />
-      <workItem from="1596764228104" duration="9895000" />
+      <workItem from="1596764228104" duration="16481000" />
     </task>
     <task id="LOCAL-00001" summary="判断数组内偶数个数&#10;判断是否可分连续数组">
       <created>1577698635886</created>
@@ -332,11 +342,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595476601755</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="去掉最低工资和最高工资后的工资平均值">
+      <created>1596786888996</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1596786888996</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132140000" />
+    <option name="totallyTimeSpent" value="138726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -429,7 +446,8 @@
     <MESSAGE value="旋转矩阵" />
     <MESSAGE value="缀点成线" />
     <MESSAGE value="二维数组中的查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二维数组中的查找" />
+    <MESSAGE value="去掉最低工资和最高工资后的工资平均值" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉最低工资和最高工资后的工资平均值" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCodePractice$SequentialDigits.ic" NAME="SequentialDigits Coverage Results" MODIFIED="1584519882466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -505,13 +523,6 @@
             <element signature="e#1762#1763#0" expanded="true" />
             <element signature="e#1798#1799#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk_1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="765" column="44" selection-start-line="765" selection-start-column="43" selection-end-line="765" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -651,20 +662,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Average.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FindNumberIn2DArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="488">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="87" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Average.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk_1.8/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="1546">
+          <caret line="500" column="22" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk_1.8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38562">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatrixReshape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
