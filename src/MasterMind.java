@@ -45,27 +45,20 @@ public class MasterMind {
     }
 
     public int[] masterMind2(String solution, String guess) {
-
         int[] counter = new int[4];
         int match = 0, count = 0;
-
         for (int i = 0; i < 4; i++) {
-
             if (solution.charAt(i) == guess.charAt(i))
                 match++;
-
             counter[getIdx(solution.charAt(i))]++;
         }
-
         for (int i = 0; i < 4; i++)
             if (--counter[getIdx(guess.charAt(i))] >= 0)
                 count++;
-
         return new int[]{match, count - match};
     }
 
     public int getIdx(char ch) {
-
         if (ch == 'R')
             return 0;
         else if (ch == 'G')
