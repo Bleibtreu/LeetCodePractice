@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="查找常用字符">
-      <change afterPath="$PROJECT_DIR$/src/GetLeastNumbers.java" afterDir="false" />
+    <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="修改注释">
+      <change afterPath="$PROJECT_DIR$/src/IsPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +57,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.GetLeastNumbers">
-    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Average" />
-      <module name="leetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IsPalindrome">
     <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommonChars" />
       <module name="leetCode" />
@@ -74,6 +67,13 @@
     </configuration>
     <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetLeastNumbers" />
+      <module name="leetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IsPalindrome" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,26 +93,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.GetLeastNumbers" />
         <item itemvalue="Application.CommonChars" />
         <item itemvalue="Application.MasterMind" />
         <item itemvalue="Application.MatrixReshape" />
-        <item itemvalue="Application.Average" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,8 @@
       <workItem from="1596764228104" duration="16602000" />
       <workItem from="1597037127752" duration="10873000" />
       <workItem from="1602647545870" duration="12837000" />
-      <workItem from="1602724964079" duration="5832000" />
+      <workItem from="1602724964079" duration="6462000" />
+      <workItem from="1603416471343" duration="10536000" />
     </task>
     <task id="LOCAL-00001" summary="判断数组内偶数个数&#10;判断是否可分连续数组">
       <created>1577698635886</created>
@@ -252,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602664687900</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="找出最小数">
+      <created>1602730821371</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602730821371</updated>
+    </task>
+    <task id="LOCAL-00016" summary="修改注释">
+      <created>1602731176391</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602731176391</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,48 +312,50 @@
     <MESSAGE value="去掉最低工资和最高工资后的工资平均值" />
     <MESSAGE value="重塑矩阵" />
     <MESSAGE value="查找常用字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="查找常用字符" />
+    <MESSAGE value="找出最小数" />
+    <MESSAGE value="修改注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="274" key="GridCell.Tab.0.bottom" timestamp="1602729794173">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom" timestamp="1603426588040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602729794173" />
-    <state width="1876" height="274" key="GridCell.Tab.0.center" timestamp="1602729794173">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588040" />
+    <state width="1876" height="339" key="GridCell.Tab.0.center" timestamp="1603426588040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602729794173" />
-    <state width="1876" height="274" key="GridCell.Tab.0.left" timestamp="1602729794173">
+    <state width="1876" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588040" />
+    <state width="1876" height="339" key="GridCell.Tab.0.left" timestamp="1603426588040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602729794173" />
-    <state width="1876" height="274" key="GridCell.Tab.0.right" timestamp="1602729794173">
+    <state width="1876" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588040" />
+    <state width="1876" height="339" key="GridCell.Tab.0.right" timestamp="1603426588040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602729794173" />
-    <state width="1876" height="339" key="GridCell.Tab.1.bottom" timestamp="1602665077435">
+    <state width="1876" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588040" />
+    <state width="1876" height="339" key="GridCell.Tab.1.bottom" timestamp="1603426588041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602665077435" />
-    <state width="1876" height="339" key="GridCell.Tab.1.center" timestamp="1602665077434">
+    <state width="1876" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588041" />
+    <state width="1876" height="339" key="GridCell.Tab.1.center" timestamp="1603426588041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602665077434" />
-    <state width="1876" height="339" key="GridCell.Tab.1.left" timestamp="1602665077434">
+    <state width="1876" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588041" />
+    <state width="1876" height="339" key="GridCell.Tab.1.left" timestamp="1603426588040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602665077434" />
-    <state width="1876" height="339" key="GridCell.Tab.1.right" timestamp="1602665077434">
+    <state width="1876" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588040" />
+    <state width="1876" height="339" key="GridCell.Tab.1.right" timestamp="1603426588041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602665077434" />
+    <state width="1876" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603426588041" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1602727313816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602727313816" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1602664693201">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1602731179024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602664693201" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602731179024" />
   </component>
 </project>
