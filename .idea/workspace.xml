@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="小岛周长问题">
+      <change afterPath="$PROJECT_DIR$/src/ValidMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IslandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IslandPerimeter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.IslandPerimeter">
+  <component name="RunManager" selected="Application.ValidMountainArray">
     <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommonChars" />
       <module name="leetCode" />
@@ -86,33 +87,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MasterMind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MasterMind" />
+    <configuration name="ValidMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidMountainArray" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidMountainArray" />
         <item itemvalue="Application.IslandPerimeter" />
         <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.GetLeastNumbers" />
         <item itemvalue="Application.CommonChars" />
-        <item itemvalue="Application.MasterMind" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,8 @@
       <workItem from="1602647545870" duration="12837000" />
       <workItem from="1602724964079" duration="6462000" />
       <workItem from="1603416471343" duration="10586000" />
-      <workItem from="1604032040179" duration="6841000" />
+      <workItem from="1604032040179" duration="7246000" />
+      <workItem from="1604389315115" duration="5783000" />
     </task>
     <task id="LOCAL-00001" summary="判断数组内偶数个数&#10;判断是否可分连续数组">
       <created>1577698635886</created>
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604042240715</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="小岛周长问题">
+      <created>1604042594017</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604042594017</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,45 +343,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="小岛周长问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="339" key="GridCell.Tab.0.bottom" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.0.center" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.0.center" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.0.left" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.0.left" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.0.right" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.0.right" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.1.bottom" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.1.bottom" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.1.center" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.1.center" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.1.left" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.1.left" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
-    <state width="1876" height="339" key="GridCell.Tab.1.right" timestamp="1604042179347">
+    <state width="1876" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
+    <state width="1876" height="339" key="GridCell.Tab.1.right" timestamp="1604394831998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042179347" />
+    <state width="1876" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604394831998" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1602727313816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602727313816" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1604042588534">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1604042598571">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042588534" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604042598571" />
   </component>
 </project>
