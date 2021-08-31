@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="速算机器人">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SumZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickCalculationRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickCalculationRobot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.QuickCalculationRobot">
+  <component name="RunManager" selected="Application.SumZero">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,13 +75,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetLeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetLeastNumbers" />
-      <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SumZero" />
+      <module name="leetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ValidMountainArray" />
       <module name="leetCode" />
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumZero" />
         <item itemvalue="Application.QuickCalculationRobot" />
         <item itemvalue="Application.ValidMountainArray" />
         <item itemvalue="Application.IslandPerimeter" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.GetLeastNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,8 @@
       <workItem from="1603416471343" duration="10586000" />
       <workItem from="1604032040179" duration="7246000" />
       <workItem from="1604389315115" duration="5783000" />
-      <workItem from="1630298145673" duration="3965000" />
+      <workItem from="1630298145673" duration="4190000" />
+      <workItem from="1630376445219" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="判断数组内偶数个数&#10;判断是否可分连续数组">
       <created>1577698635886</created>
@@ -306,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630301852825</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="速算机器人">
+      <created>1630303436037</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630303436037</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
