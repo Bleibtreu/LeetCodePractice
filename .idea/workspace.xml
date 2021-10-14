@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="速算机器人">
-      <change afterPath="$PROJECT_DIR$/src/SumZero.java" afterDir="false" />
+    <list default="true" id="da47087b-01e9-4b2a-98a5-2ad68c8b117c" name="Default Changelist" comment="和为零的N个唯一整数">
+      <change afterPath="$PROJECT_DIR$/src/CanPartitionKSubsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickCalculationRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickCalculationRobot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.SumZero">
+  <component name="RunManager" selected="Application.CanPartitionKSubsets">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsPalindrome" />
+    <configuration name="CanPartitionKSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CanPartitionKSubsets" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanPartitionKSubsets" />
         <item itemvalue="Application.SumZero" />
         <item itemvalue="Application.QuickCalculationRobot" />
         <item itemvalue="Application.ValidMountainArray" />
         <item itemvalue="Application.IslandPerimeter" />
-        <item itemvalue="Application.IsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,9 @@
       <workItem from="1604032040179" duration="7246000" />
       <workItem from="1604389315115" duration="5783000" />
       <workItem from="1630298145673" duration="4190000" />
-      <workItem from="1630376445219" duration="2910000" />
+      <workItem from="1630376445219" duration="3385000" />
+      <workItem from="1630921996291" duration="609000" />
+      <workItem from="1634201355360" duration="6807000" />
     </task>
     <task id="LOCAL-00001" summary="判断数组内偶数个数&#10;判断是否可分连续数组">
       <created>1577698635886</created>
@@ -314,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630303436037</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="和为零的N个唯一整数">
+      <created>1630379962069</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630379962069</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +374,7 @@
     <MESSAGE value="回文链表" />
     <MESSAGE value="小岛周长问题" />
     <MESSAGE value="速算机器人" />
-    <option name="LAST_COMMIT_MESSAGE" value="速算机器人" />
+    <MESSAGE value="和为零的N个唯一整数" />
+    <option name="LAST_COMMIT_MESSAGE" value="和为零的N个唯一整数" />
   </component>
 </project>
